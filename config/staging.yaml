@@ -1,0 +1,16 @@
+env: staging
+address:
+  internal: 'http://0.0.0.0:8080'
+  external: 'https://DOMAIN' #set domain
+  test: 'https://DOMAIN' #set domain
+mongo: 'mongodb://USER:PASSWORD@DB' # set your mongo
+jwt:
+  secret: 'secret'
+  exp: 604800
+  temporaryTokenExp: 1200
+vk:
+  id: 1
+  secret: 'secret'
+cors:
+  - 'http://127.0.0.1:7000'
+  - 'localhost:7000'

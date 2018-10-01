@@ -1,0 +1,14 @@
+env: development
+address:
+  internal: 'http://127.0.0.1:7000' # set internal docker address
+  external: 'http://127.0.0.1:7000' # set external address for browser enter
+  test: 'http://127.0.0.1:7000' # set external address for mocha tests
+mongo: 'mongodb://USER:PASSWORD@DB' # set your mongo
+jwt:  # set json webtoken options
+  secret: 'secret'
+  exp: 604800
+  temporaryTokenExp: 1200
+vk: # set vk settings
+  id: 1
+  secret: 'secret'
+cors: '*'

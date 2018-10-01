@@ -16,12 +16,12 @@ Environments run:
 * development: `npm run development`
 * staging:
     - make dir build
-    - `npm run build`
-    - `npm run staging`
+    - `npm run build` || `npm run buildWin`
+    - `npm run staging` || `npm run stagingWin`
 * production:
     - make dir build
-    - `npm run build`
-    - `npm run production`
+    - `npm run build` || `npm run buildWin`
+    - `npm run production` || `npm run productionWin`
 
 ### Usage
 Development. Server running on 127.0.0.1:7000
